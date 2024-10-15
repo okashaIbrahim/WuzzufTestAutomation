@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Wuzzuf Website">
+    <test name="Search for a job test cases">
+        <classes>
+            <class name="tests.wuzzuf">
+                <methods>
+                    <include name="searchForAJob"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
